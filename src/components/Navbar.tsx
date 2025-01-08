@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Poppins, Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { Menu, X } from "lucide-react";
 
 const poppins = Poppins({
@@ -9,10 +9,7 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-const roboto = Roboto({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
-});
+
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
