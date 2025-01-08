@@ -1,11 +1,14 @@
+"use client";
 import React from "react";
- import Navbar from "@/components/ui/Navbar";  
+import Introduction from '../components/Introduction'
 
 function page() {
   return (
     <>
-      <Navbar />
-
+    <div>
+      <Introduction/>
+    </div>
+     
     </>
   );
 }
