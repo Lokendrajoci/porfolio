@@ -38,7 +38,7 @@ export default function Navbar() {
     <nav
       className={`${
         poppins.className
-      }  top-0  transition-all duration-300 w-full max-w-3xl mt-3
+      }  top-0 z-50 transition-all duration-300 w-full max-w-3xl mt-3
         bg-[#111827] rounded-lg ${scrolled ? "shadow-lg shadow-black/20" : ""}`}
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
